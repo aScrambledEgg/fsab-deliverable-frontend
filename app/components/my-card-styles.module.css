@@ -1,0 +1,16 @@
+/* Very simple styles applied to the card */
+.container {
+  border: 1px solid black;
+}
+
+.title {
+  color: red;
+}
+
+.text {
+  color: blue;
+}
+
+.counter {
+  color: green;
+}
