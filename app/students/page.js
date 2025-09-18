@@ -95,7 +95,6 @@ export default function Board() {
   );
 }
 
-// Calculate winner helper
 function calculateWinner(squares) {
   const lines = [
     [0, 1, 2],
