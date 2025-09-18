@@ -1,9 +1,11 @@
-
 'use client'
 import { useState } from "react"
 import classes from "./new-student-form-styles.module.css";
 
-function NewStudentForm() {
+
+
+
+function AddStudentWin(player){
     async function onSubmit() {
         // TODO: Implement the onSubmit function, which should post the new student to the backend
         const newStudentBody = {
@@ -23,7 +25,7 @@ function NewStudentForm() {
 
     return (
         <div>
-            <h3>Add New Student</h3>
+            <h3>Record Name and Reset</h3>
             <button onClick={onSubmit}>Submit</button>
             <h4>Main Info</h4>
             <div className={classes.mainForm}>
@@ -41,4 +43,3 @@ function NewStudentForm() {
         </div>
     )
 }
-export default NewStudentForm
